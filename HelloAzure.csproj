@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <PropertyGroup>
-  <DefaultItemExcludes>$(DefaultItemExcludes);UnitTests\**</DefaultItemExcludes>
+  <DefaultItemExcludes>$(DefaultItemExcludes);Tests\**</DefaultItemExcludes>
 </PropertyGroup>
 
 </Project>
