@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup>
+  <DefaultItemExcludes>$(DefaultItemExcludes);UnitTests\**</DefaultItemExcludes>
+</PropertyGroup>
+
 </Project>
