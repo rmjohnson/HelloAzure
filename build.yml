@@ -45,7 +45,8 @@ jobs:
     displayName: Publish
     inputs:
       command: publish
-      publishWebProjects: True
+      publishWebProjects: false
+      projects: '**/*.csproj'
       arguments: --configuration $(BuildConfiguration) --output "$(build.artifactstagingdirectory)"
       zipAfterPublish: True
   - task: PublishBuildArtifacts@1
